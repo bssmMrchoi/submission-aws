@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>과제 제출 시스템</title>
+    <style>
+      body { max-width: 720px; margin: 24px auto; padding: 0 16px; font-family: sans-serif; line-height: 1.5; }
+      table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+      th, td { border: 1px solid #ccc; padding: 6px 8px; text-align: left; }
+      input, select, textarea, button { font: inherit; padding: 4px 8px; margin: 4px 0; }
+      input[type=text], select, textarea { width: 100%; box-sizing: border-box; }
+      .status { background: #f6f6f6; padding: 8px 12px; border-radius: 6px; font-size: 14px; }
+      .ok { color: #1a7f37; }
+      .warn { color: #c2410c; }
+      .tabs button.active { font-weight: bold; }
+      .msg { margin-top: 8px; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
